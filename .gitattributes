@@ -1,0 +1,29 @@
+# По умолчанию: нормализуем текстовые файлы
+* text=auto
+
+# Явно фиксируем LF
+*.md   text eol=lf
+*.txt  text eol=lf
+*.py   text eol=lf
+*.sh   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Jupyter-ноутбуки: считаем бинарными, чтобы git не пытался их "красиво" диффать
+*.ipynb binary
+
+# Презентации и другие бинарные артефакты
+*.pdf  binary
+*.ppt  binary
+*.pptx binary
+*.key  binary
+
+# Картинки (вдруг потом появятся в guides/ или slides)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+
+# SVG обычно лучше считать текстом (иногда полезен дифф)
+*.svg  text eol=lf
