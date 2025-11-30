@@ -1,0 +1,21 @@
+[project]
+name = "rslrecognition"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Doster-d", email = "63081538+Doster-d@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dvc>=3.64.0",
+    "rich>=14.2.0",
+    "typer>=0.20.0",
+]
+
+[project.scripts]
+rslrecognition = "rslrecognition:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
