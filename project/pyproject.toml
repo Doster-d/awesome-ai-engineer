@@ -9,6 +9,8 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "dvc>=3.64.0",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
     "rich>=14.2.0",
     "typer>=0.20.0",
 ]
@@ -19,3 +21,9 @@ rslrecognition = "rslrecognition:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+    "notebook>=7.5.0",
+]
