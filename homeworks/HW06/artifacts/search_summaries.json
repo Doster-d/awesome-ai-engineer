@@ -1,0 +1,34 @@
+{
+  "LogReg(scaled)": {
+    "best_params": {
+      "lr__C": 0.1,
+      "lr__penalty": "l2",
+      "lr__solver": "lbfgs"
+    },
+    "best_cv_roc_auc": 0.8218661558557436
+  },
+  "DecisionTree": {
+    "best_params": {
+      "dt__ccp_alpha": 0.0,
+      "dt__max_depth": null,
+      "dt__min_samples_leaf": 20
+    },
+    "best_cv_roc_auc": 0.7878843520028387
+  },
+  "RandomForest": {
+    "best_params": {
+      "rf__max_depth": null,
+      "rf__max_features": "sqrt",
+      "rf__min_samples_leaf": 10
+    },
+    "best_cv_roc_auc": 0.888254139124084
+  },
+  "HistGradientBoosting": {
+    "best_params": {
+      "hgb__learning_rate": 0.03,
+      "hgb__max_depth": null,
+      "hgb__max_leaf_nodes": 15
+    },
+    "best_cv_roc_auc": 0.901583053970161
+  }
+}
