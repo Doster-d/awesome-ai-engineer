@@ -1,0 +1,7 @@
+[[preprocess.scaling]]
+method = "standard"
+columns = ["f_noise"]
+
+[[preprocess.scaling]]
+method = "robust"
+columns = ["x1", "x2", "f_corr"]

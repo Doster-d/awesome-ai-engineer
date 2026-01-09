@@ -1,0 +1,7 @@
+[[preprocess.scaling]]
+method = "standard"
+columns = ["f07", "f08"]
+
+[[preprocess.scaling]]
+method = "robust"
+columns = ["f01", "f02", "f03", "f04", "f05", "f06"]
