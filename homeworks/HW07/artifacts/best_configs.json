@@ -1,0 +1,27 @@
+{
+  "kmeans": {
+    "hw07_ds1": {
+      "k": 2
+    },
+    "hw07_ds2": {
+      "k": 2
+    },
+    "hw07_ds3": {
+      "k": 12
+    }
+  },
+  "dbscan": {
+    "hw07_ds1": {
+      "eps": 0.8,
+      "min_samples": 20
+    },
+    "hw07_ds2": {
+      "eps": 0.5,
+      "min_samples": 3
+    },
+    "hw07_ds3": {
+      "eps": 0.5,
+      "min_samples": 3
+    }
+  }
+}
