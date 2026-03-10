@@ -1,0 +1,39 @@
+{
+  "dataset": "EMNIST_BALANCED",
+  "seed": 42,
+  "val_ratio": 0.2,
+  "batch_size": 256,
+  "num_workers": 0,
+  "device": "cuda",
+  "transform": "ToTensor() + Normalize((0.5,), (0.5,))",
+  "input_shape": [
+    1,
+    28,
+    28
+  ],
+  "num_classes": 47,
+  "selected_from_for_e4": "E3",
+  "model": {
+    "hidden_sizes": [
+      512,
+      256,
+      128
+    ],
+    "activation": "relu",
+    "dropout": 0.0,
+    "use_batchnorm": true
+  },
+  "training": {
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "epochs_max": 40,
+    "early_stopping_patience": 4,
+    "early_stopping_min_delta": 0.0001
+  },
+  "best_epoch": 7,
+  "best_val_accuracy": 0.8519503546099291,
+  "best_val_loss": 0.4434014177068751,
+  "test_loss": 0.4599930606243458,
+  "test_accuracy": 0.8511170212765957
+}
