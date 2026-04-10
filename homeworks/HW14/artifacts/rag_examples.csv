@@ -1,0 +1,10 @@
+question,answer,retrieved_sources
+Как создать генератор в Python?,"Генератор — функция с ключевым словом yield, которая возвращает итератор. Начиная с Python 3.5, доступны аннотации типов через модуль typing.","doc_11, doc_08, doc_03"
+Зачем нужны виртуальные окружения?,Активация окружения добавляет его bin/Scripts Активация окружения добавляет его bin/Scripts в PATH.,"doc_06, doc_06, doc_16"
+Как настроить логирование?,Не удалось найти подходящий ответ в контексте.,"doc_16, doc_16, doc_04"
+Что делает lru_cache?,"@staticmethod, @classmethod, @property, functools.lru_cache. Стандартные декораторы: @staticmethod, @classmethod, @property, functools.lru_cache.","doc_18, doc_04, doc_04"
+Как работает GIL?,Начиная с Python 3.13 появился экспериментальный free-threaded режим без GIL. GIL (Global Interpreter Lock) ограничивает выполнение только одного потока Python одновременно.,"doc_11, doc_11, doc_03"
+Как использовать async for для асинхронных итераторов?,"Корутины определяются через async def, вызываются через await. Генераторное выражение создаётся через круглые скобки: (x**2 for x in range(10)).","doc_13, doc_13, doc_03"
+Чем отличается list comprehension от map?,List comprehension создаёт список в одну строку: [x**2 for x in range(10)]. Set comprehension: {x for,"doc_15, doc_15, doc_15"
+Как сериализовать объект в JSON?,Поля описываются как аннотации типов в теле класса.,"doc_12, doc_12, doc_02"
+Какой лучший фреймворк для веб-разработки на Python?,"для CPU-bound — multiprocessing. Аннотации не влияют на выполнение, но помогают IDE и линтерам находить ошибки.","doc_11, doc_06, doc_08"

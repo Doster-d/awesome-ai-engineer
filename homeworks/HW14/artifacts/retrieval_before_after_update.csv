@@ -1,0 +1,4 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+Как настроить логирование в Python?,"doc_06, doc_02, doc_08","doc_16, doc_06, doc_02",True
+Что такое f-строки и как их использовать?,"doc_14, doc_14, doc_10","doc_17, doc_17, doc_14",True
+Зачем нужен lru_cache из functools?,"doc_04, doc_04, doc_06","doc_18, doc_04, doc_04",True
