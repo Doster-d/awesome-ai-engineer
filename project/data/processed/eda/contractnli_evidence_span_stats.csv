@@ -1,0 +1,3 @@
+gold_label,spans,mean_length_chars,median_length_chars,p95_length_chars,mean_relative_start,median_relative_start
+contradiction,2192,292.3353102189781,224.0,841.0,0.28781510280506506,0.22223781104918533
+entailment,9781,244.4143748083018,192.0,625.0,0.3824480769210724,0.3502035278154681

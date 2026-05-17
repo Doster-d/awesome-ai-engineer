@@ -1,0 +1,38 @@
+clause,text_column,answer_column,documents_with_text,documents_with_text_share,answer_yes_count,answer_no_count,text_when_answer_yes,answer_yes_without_text,text_without_answer_yes
+Document Name,Document Name,Document Name-Answer,510,1.0,0,0,0,0,510
+Governing Law,Governing Law,Governing Law-Answer,437,0.8568627450980392,0,0,0,0,437
+Anti-Assignment,Anti-Assignment,Anti-Assignment-Answer,374,0.7333333333333333,374,136,374,0,0
+Cap On Liability,Cap On Liability,Cap On Liability-Answer,275,0.5392156862745098,275,235,275,0,0
+License Grant,License Grant,License Grant-Answer,255,0.5,255,255,255,0,0
+Audit Rights,Audit Rights,Audit Rights-Answer,214,0.4196078431372549,214,296,214,0,0
+Termination For Convenience,Termination For Convenience,Termination For Convenience-Answer,183,0.3588235294117647,183,327,183,0,0
+Post-Termination Services,Post-Termination Services,Post-Termination Services-Answer,182,0.3568627450980392,182,328,182,0,0
+Exclusivity,Exclusivity,Exclusivity-Answer,180,0.35294117647058826,180,330,180,0,0
+Renewal Term,Renewal Term,Renewal Term-Answer,176,0.34509803921568627,0,0,0,0,176
+Insurance,Insurance,Insurance-Answer,166,0.3254901960784314,167,343,166,1,0
+Revenue/Profit Sharing,Revenue/Profit Sharing,Revenue/Profit Sharing-Answer,166,0.3254901960784314,166,344,166,0,0
+Minimum Commitment,Minimum Commitment,Minimum Commitment-Answer,165,0.3235294117647059,165,345,165,0,0
+Non-Transferable License,Non-Transferable License,Non-Transferable License-Answer,138,0.27058823529411763,138,372,138,0,0
+Ip Ownership Assignment,Ip Ownership Assignment,Ip Ownership Assignment-Answer,124,0.24313725490196078,124,386,124,0,0
+Change Of Control,Change Of Control,Change Of Control-Answer,121,0.2372549019607843,121,389,121,0,0
+Non-Compete,Non-Compete,Non-Compete-Answer,119,0.23333333333333334,119,391,119,0,0
+Notice Period To Terminate Renewal,Notice Period To Terminate Renewal,Notice Period To Terminate Renewal- Answer,111,0.21764705882352942,0,0,0,0,111
+Uncapped Liability,Uncapped Liability,Uncapped Liability-Answer,111,0.21764705882352942,111,399,111,0,0
+Covenant Not To Sue,Covenant Not To Sue,Covenant Not To Sue-Answer,100,0.19607843137254902,100,410,100,0,0
+Rofr/Rofo/Rofn,Rofr/Rofo/Rofn,Rofr/Rofo/Rofn-Answer,85,0.16666666666666666,85,425,85,0,0
+Volume Restriction,Volume Restriction,Volume Restriction-Answer,82,0.1607843137254902,82,428,82,0,0
+Competitive Restriction Exception,Competitive Restriction Exception,Competitive Restriction Exception-Answer,76,0.14901960784313725,76,434,76,0,0
+Warranty Duration,Warranty Duration,Warranty Duration-Answer,75,0.14705882352941177,75,435,75,0,0
+Irrevocable Or Perpetual License,Irrevocable Or Perpetual License,Irrevocable Or Perpetual License-Answer,70,0.13725490196078433,70,440,70,0,0
+Liquidated Damages,Liquidated Damages,Liquidated Damages-Answer,61,0.11960784313725491,61,449,61,0,0
+Affiliate License-Licensee,Affiliate License-Licensee,Affiliate License-Licensee-Answer,59,0.11568627450980393,59,451,59,0,0
+No-Solicit Of Employees,No-Solicit Of Employees,No-Solicit Of Employees-Answer,59,0.11568627450980393,59,451,59,0,0
+Joint Ip Ownership,Joint Ip Ownership,Joint Ip Ownership-Answer,46,0.09019607843137255,46,464,46,0,0
+Non-Disparagement,Non-Disparagement,Non-Disparagement-Answer,38,0.07450980392156863,38,472,38,0,0
+No-Solicit Of Customers,No-Solicit Of Customers,No-Solicit Of Customers-Answer,34,0.06666666666666667,34,476,34,0,0
+Third Party Beneficiary,Third Party Beneficiary,Third Party Beneficiary-Answer,32,0.06274509803921569,33,477,32,1,0
+Most Favored Nation,Most Favored Nation,Most Favored Nation-Answer,28,0.054901960784313725,28,482,28,0,0
+Affiliate License-Licensor,Affiliate License-Licensor,Affiliate License-Licensor-Answer,23,0.045098039215686274,23,487,23,0,0
+Unlimited/All-You-Can-Eat-License,Unlimited/All-You-Can-Eat-License,Unlimited/All-You-Can-Eat-License-Answer,17,0.03333333333333333,17,493,17,0,0
+Price Restrictions,Price Restrictions,Price Restrictions-Answer,15,0.029411764705882353,15,495,15,0,0
+Source Code Escrow,Source Code Escrow,Source Code Escrow-Answer,13,0.025490196078431372,13,497,13,0,0

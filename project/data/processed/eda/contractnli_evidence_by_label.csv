@@ -1,0 +1,4 @@
+gold_label,examples,mean_evidence_count,median_evidence_count,examples_without_evidence,share_without_evidence
+entailment,5017,1.9495714570460434,2.0,0,0.0
+not_mentioned,4146,0.0,0.0,4146,1.0
+contradiction,1156,1.8961937716262975,1.0,0,0.0

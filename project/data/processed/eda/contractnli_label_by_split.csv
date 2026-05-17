@@ -1,0 +1,10 @@
+split,gold_label,count,share_in_split
+dev,contradiction,95,0.09161041465766634
+dev,entailment,519,0.5004821600771456
+dev,not_mentioned,423,0.40790742526518803
+test,contradiction,220,0.10521281683405069
+test,entailment,968,0.46293639406982307
+test,not_mentioned,903,0.43185078909612623
+train,contradiction,841,0.11695174523710193
+train,entailment,3530,0.4908913920178
+train,not_mentioned,2820,0.39215686274509803

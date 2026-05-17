@@ -1,0 +1,42 @@
+answer_column,base_clause,non_empty_count,yes_count,no_count,yes_share,no_share,other_count
+Anti-Assignment-Answer,Anti-Assignment,510,374,136,0.7333333333333333,0.26666666666666666,0
+Cap On Liability-Answer,Cap On Liability,510,275,235,0.5392156862745098,0.46078431372549017,0
+License Grant-Answer,License Grant,510,255,255,0.5,0.5,0
+Audit Rights-Answer,Audit Rights,510,214,296,0.4196078431372549,0.5803921568627451,0
+Termination For Convenience-Answer,Termination For Convenience,510,183,327,0.3588235294117647,0.6411764705882353,0
+Post-Termination Services-Answer,Post-Termination Services,510,182,328,0.3568627450980392,0.6431372549019608,0
+Exclusivity-Answer,Exclusivity,510,180,330,0.35294117647058826,0.6470588235294118,0
+Insurance-Answer,Insurance,510,167,343,0.32745098039215687,0.6725490196078432,0
+Revenue/Profit Sharing-Answer,Revenue/Profit Sharing,510,166,344,0.3254901960784314,0.6745098039215687,0
+Minimum Commitment-Answer,Minimum Commitment,510,165,345,0.3235294117647059,0.6764705882352942,0
+Non-Transferable License-Answer,Non-Transferable License,510,138,372,0.27058823529411763,0.7294117647058823,0
+Ip Ownership Assignment-Answer,Ip Ownership Assignment,510,124,386,0.24313725490196078,0.7568627450980392,0
+Change Of Control-Answer,Change Of Control,510,121,389,0.2372549019607843,0.7627450980392156,0
+Non-Compete-Answer,Non-Compete,510,119,391,0.23333333333333334,0.7666666666666667,0
+Uncapped Liability-Answer,Uncapped Liability,510,111,399,0.21764705882352942,0.7823529411764706,0
+Covenant Not To Sue-Answer,Covenant Not To Sue,510,100,410,0.19607843137254902,0.803921568627451,0
+Rofr/Rofo/Rofn-Answer,Rofr/Rofo/Rofn,510,85,425,0.16666666666666666,0.8333333333333334,0
+Volume Restriction-Answer,Volume Restriction,510,82,428,0.1607843137254902,0.8392156862745098,0
+Competitive Restriction Exception-Answer,Competitive Restriction Exception,510,76,434,0.14901960784313725,0.8509803921568627,0
+Warranty Duration-Answer,Warranty Duration,510,75,435,0.14705882352941177,0.8529411764705882,0
+Irrevocable Or Perpetual License-Answer,Irrevocable Or Perpetual License,510,70,440,0.13725490196078433,0.8627450980392157,0
+Liquidated Damages-Answer,Liquidated Damages,510,61,449,0.11960784313725491,0.8803921568627451,0
+Affiliate License-Licensee-Answer,Affiliate License-Licensee,510,59,451,0.11568627450980393,0.884313725490196,0
+No-Solicit Of Employees-Answer,No-Solicit Of Employees,510,59,451,0.11568627450980393,0.884313725490196,0
+Joint Ip Ownership-Answer,Joint Ip Ownership,510,46,464,0.09019607843137255,0.9098039215686274,0
+Non-Disparagement-Answer,Non-Disparagement,510,38,472,0.07450980392156863,0.9254901960784314,0
+No-Solicit Of Customers-Answer,No-Solicit Of Customers,510,34,476,0.06666666666666667,0.9333333333333333,0
+Third Party Beneficiary-Answer,Third Party Beneficiary,510,33,477,0.06470588235294118,0.9352941176470588,0
+Most Favored Nation-Answer,Most Favored Nation,510,28,482,0.054901960784313725,0.9450980392156862,0
+Affiliate License-Licensor-Answer,Affiliate License-Licensor,510,23,487,0.045098039215686274,0.9549019607843138,0
+Unlimited/All-You-Can-Eat-License-Answer,Unlimited/All-You-Can-Eat-License,510,17,493,0.03333333333333333,0.9666666666666667,0
+Price Restrictions-Answer,Price Restrictions,510,15,495,0.029411764705882353,0.9705882352941176,0
+Source Code Escrow-Answer,Source Code Escrow,510,13,497,0.025490196078431372,0.9745098039215686,0
+Agreement Date-Answer,Agreement Date,465,0,0,0.0,0.0,465
+Document Name-Answer,Document Name,510,0,0,0.0,0.0,510
+Effective Date-Answer,Effective Date,359,0,0,0.0,0.0,359
+Expiration Date-Answer,Expiration Date,329,0,0,0.0,0.0,329
+Governing Law-Answer,Governing Law,433,0,0,0.0,0.0,433
+Notice Period To Terminate Renewal- Answer,Notice Period To Terminate Renewal,100,0,0,0.0,0.0,100
+Parties-Answer,Parties,509,0,0,0.0,0.0,509
+Renewal Term-Answer,Renewal Term,163,0,0,0.0,0.0,163
