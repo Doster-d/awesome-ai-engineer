@@ -1,0 +1,17 @@
+{
+  "model": "logistic_regression",
+  "train_rows": 15069,
+  "test_rows": 4522,
+  "positive_rate_train": 0.18023757382706218,
+  "positive_rate_test": 0.1873065015479876,
+  "roc_auc": 0.9043066766257861,
+  "average_precision": 0.7500307188469165,
+  "ranking": {
+    "recall@1": 0.8145161290322581,
+    "recall@3": 0.9415322580645161,
+    "recall@5": 0.967741935483871,
+    "recall@10": 0.9979838709677419,
+    "mrr": 0.8830605158730158,
+    "evaluated": 496
+  }
+}

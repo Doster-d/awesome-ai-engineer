@@ -1,0 +1,8 @@
+model: rule_based
+candidates_top_k: 20
+metrics:
+  - recall@1
+  - recall@3
+  - recall@5
+  - recall@10
+  - mrr
