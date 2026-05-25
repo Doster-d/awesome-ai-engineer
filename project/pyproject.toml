@@ -8,8 +8,13 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "botocore>=1.43.14",
     "clearml>=2.1.7",
+    "datasets>=4.4.1",
+    "dspy>=3.2.1",
+    "dspy-qdrant>=0.1.4",
     "dvc>=3.64.0",
+    "fastapi[standard]>=0.136.1",
     "matplotlib>=3.10.7",
     "orjson>=3.11.4",
     "pandas>=2.3.3",
@@ -22,7 +27,19 @@ dependencies = [
 
 [project.scripts]
 contract_inspector = "contract_inspector:main"
-ci_download_data="contract_inspector.data.download_data:app"
+ci_download_data = "contract_inspector.data.download_data:app"
+ci_build_ru_legal_qa = "contract_inspector.data.normalize_ru_legal_qa:main"
+ci_build_eis_btk_sample = "contract_inspector.data.eis_btk:main"
+ci_build_processed = "contract_inspector.data.build_processed:main"
+ci_evaluate_retrieval = "contract_inspector.retrieval.evaluate:main"
+ci_evaluate_ru_legal_qa = "contract_inspector.retrieval.evaluate_ru_legal_qa:main"
+ci_build_features = "contract_inspector.features.retrieval_features:main"
+ci_train_ranker = "contract_inspector.models.train_ranker:main"
+ci_optimize_gepa = "contract_inspector.rlm.optimize_gepa:main"
+ci_evaluate_rlm = "contract_inspector.rlm.evaluate_rlm:main"
+ci_build_rlm_validation = "contract_inspector.rlm.build_validation_set:main"
+ci_service = "contract_inspector.service.api:main"
+ci_service_dev = "contract_inspector.service.api:main_dev"
 
 [build-system]
 requires = ["hatchling"]
