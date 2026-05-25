@@ -1,0 +1,8 @@
+model_version: bm25_runtime_v1
+chunk_size_words: 220
+overlap_words: 50
+top_k: 5
+default_clause_types:
+  - Governing Law
+  - Cap On Liability
+  - Anti-Assignment
