@@ -1,0 +1,266 @@
+{
+  "dataset": "ru_legal_qa_v1",
+  "task": "question_to_legal_quote_support",
+  "selection": "first_examples",
+  "examples_path": "data/processed/rlm_validation_examples.jsonl",
+  "baseline_top_k": 3,
+  "rlm_top_k": 10,
+  "baseline_errors_total": 21,
+  "baseline_examples_total": 24,
+  "rows": [
+    {
+      "example_id": "ru_legal_qa_0029__25_12_2017_239",
+      "contract_id": "ru_legal_qa__25_12_2017_239",
+      "question": "СБ ЗОКИИ: допускается ли использовать ПО с открытым исходным кодом (Open-source решения) в качестве СрЗИ ЗОКИИ (например, СОВ Suricata)?",
+      "baseline_found": true,
+      "rlm_found": false,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0031__08_02_2018_127",
+      "contract_id": "ru_legal_qa__08_02_2018_127",
+      "question": "Серия вебинаров: следует ли при категорировании оценивать экономические последствия от компьютерного инцидента от его возникновения до закрытия? Каким образом можно рассчитать такие последствия?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0033__06_05_2019_196",
+      "contract_id": "ru_legal_qa__06_05_2019_196",
+      "question": "Серия вебинаров: установлен ли законодательством срок хранения событий ИБ ЗОКИИ?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0034__01_05_2022_250",
+      "contract_id": "ru_legal_qa__01_05_2022_250",
+      "question": "Серия вебинаров: какие организации допустимо привлекать для выполнения работ (оказания услуг) по ИБ в контексте подпункта «в» пункта 1 Указа Президента РФ № 250?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0034__21_12_2017_235",
+      "contract_id": "ru_legal_qa__21_12_2017_235",
+      "question": "Серия вебинаров: какие организации допустимо привлекать для выполнения работ (оказания услуг) по ИБ в контексте подпункта «в» пункта 1 Указа Президента РФ № 250?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0035__08_02_2018_127",
+      "contract_id": "ru_legal_qa__08_02_2018_127",
+      "question": "Серия вебинаров: требуется ли включать в Перечень объектов КИИ создаваемые объекты и направлять такой перечень в ФСТЭК России? Какие требования в контексте 187-ФЗ предъявляются к создаваемым объектам КИИ после включения их в перечень?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0037__26_07_2017_187",
+      "contract_id": "ru_legal_qa__26_07_2017_187",
+      "question": "Серия вебинаров: следует ли собственнику (лицу, которому на законных основаниях принадлежит объект КИИ, – субъекту КИИ) включать в Перечень объектов КИИ и категорировать систему, эксплуатируемую сторонней организацией (оператором)?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0039__08_02_2018_127",
+      "contract_id": "ru_legal_qa__08_02_2018_127",
+      "question": "Серия вебинаров: какие дни рассматриваются в контексте сроков исполнения норм 187-ФЗ и Правил категорирования (ПП-127): рабочие или календарные?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0056__25_12_2017_239",
+      "contract_id": "ru_legal_qa__25_12_2017_239",
+      "question": "СБ ЗОКИИ: обязательно ли проводить тестирование на проникновение (пентест) при выполнении требований по анализу уязвимостей? Или способы проведения анализа уязвимостей определяются на усмотрение субъекта КИИ?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0056__20_04_2021_757",
+      "contract_id": "ru_legal_qa__20_04_2021_757",
+      "question": "СБ ЗОКИИ: обязательно ли проводить тестирование на проникновение (пентест) при выполнении требований по анализу уязвимостей? Или способы проведения анализа уязвимостей определяются на усмотрение субъекта КИИ?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0059__22_08_2022_1478",
+      "contract_id": "ru_legal_qa__22_08_2022_1478",
+      "question": "Импортозамещение: какие ПАК будут считаться доверенными и их применение в ЗОКИИ не будет противоречить требования ПП-1912 (УП 166)?",
+      "baseline_found": true,
+      "rlm_found": false,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0061__25_12_2017_239",
+      "contract_id": "ru_legal_qa__25_12_2017_239",
+      "question": "СБ ЗОКИИ: должен ли быть аттестован центр обработки данных, в котором хранятся данные значимых объектов КИИ по договору аренды?",
+      "baseline_found": true,
+      "rlm_found": false,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0080__25_12_2017_239",
+      "contract_id": "ru_legal_qa__25_12_2017_239",
+      "question": "СБ ЗОКИИ: обязательно ли проведение макетирования системы (подсистемы) безопасности ЗОКИИ в рамках ее проектирования и (или) введения в действие?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0081__28_12_2013_442",
+      "contract_id": "ru_legal_qa__28_12_2013_442",
+      "question": "Субъекты КИИ: если сферу социального обеспечения включат в статью 2 187-ФЗ, то какие организации могут стать субъектами КИИ, функционирующими в данной сфере?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0082__21_12_2017_235",
+      "contract_id": "ru_legal_qa__21_12_2017_235",
+      "question": "Субъекты КИИ: на какую из сторон договора аренды распространяются требования по категорированию и обеспечению безопасности потенциально значимого объекта КИИ, если такой объект находится в аренде?",
+      "baseline_found": true,
+      "rlm_found": false,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0085__02_06_2020_76",
+      "contract_id": "ru_legal_qa__02_06_2020_76",
+      "question": "СБ ЗОКИИ: подпадают ли под запрет использования иностранные средства защиты информации союзных государств (Республика Беларусь) на значимых объектах КИИ?",
+      "baseline_found": true,
+      "rlm_found": false,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0095__16_08_2004_1085",
+      "contract_id": "ru_legal_qa__16_08_2004_1085",
+      "question": "Категорирование: может ли субъект КИИ в финансовой отрасли направить сведения об объектах КИИ в Банк России, чтобы Банк России согласовал сведения с ФСТЭК России?",
+      "baseline_found": true,
+      "rlm_found": false,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0108__17_02_2018_162",
+      "contract_id": "ru_legal_qa__17_02_2018_162",
+      "question": "Проверки: должна ли ФСТЭК России уведомлять субъекта КИИ о проведении проверки (государственного контроля)?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0109__01_05_2022_250",
+      "contract_id": "ru_legal_qa__01_05_2022_250",
+      "question": "Указ Президента РФ № 250: были ли изданы Правительством РФ и ФСБ России нормативные правовые акты в рамках реализации пунктов 3 и 5 Указа?",
+      "baseline_found": true,
+      "rlm_found": false,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0116__25_12_2017_239",
+      "contract_id": "ru_legal_qa__25_12_2017_239",
+      "question": "СБ ЗОКИИ: требуется ли оценка соответствия СрЗИ, не включенных в базовый набор мер защиты (239 приказ ФСТЭК), но используемых для обеспечения безопасности ЗОКИИ?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0118__26_07_2017_187",
+      "contract_id": "ru_legal_qa__26_07_2017_187",
+      "question": "Категорирование: мы создаем организацию для оказания ИТ-услуг внутри холдинга (т.н. инсорсер), дочерние (зависимые) предприятия которого являются субъектами КИИ. Будет ли создаваемый ИТ-инсорсер являться субъектом КИИ?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": false,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0001__08_02_2018_127",
+      "contract_id": "ru_legal_qa__08_02_2018_127",
+      "question": "New!Серия вебинаров: входит ли в область проведения государственного контроля мониторинг представления актуальных и достоверных сведений, осуществляемый в соответствии с п.19.2 ПП-127?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": true,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0001__26_07_2017_187",
+      "contract_id": "ru_legal_qa__26_07_2017_187",
+      "question": "New!Серия вебинаров: входит ли в область проведения государственного контроля мониторинг представления актуальных и достоверных сведений, осуществляемый в соответствии с п.19.2 ПП-127?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": true,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    },
+    {
+      "example_id": "ru_legal_qa_0002__21_12_2017_235",
+      "contract_id": "ru_legal_qa__21_12_2017_235",
+      "question": "New!Серия вебинаров: обязательно ли издавать приказ и утверждать план об устранении недостатков (нарушений, несоответствий), выявленных в ходе государственного контроля?",
+      "baseline_found": true,
+      "rlm_found": true,
+      "baseline_supported": true,
+      "rlm_supported": true,
+      "rlm_enabled": true
+    }
+  ],
+  "baseline": {
+    "found_rate": 1.0,
+    "quote_support_rate": 0.125,
+    "answer_support_rate": 0.125,
+    "evaluated": 24,
+    "rlm_enabled_rate": null
+  },
+  "rlm": {
+    "found_rate": 0.7083333333333334,
+    "quote_support_rate": 1.0,
+    "answer_support_rate": 0.7083333333333334,
+    "evaluated": 24,
+    "rlm_enabled_rate": 1.0
+  }
+}

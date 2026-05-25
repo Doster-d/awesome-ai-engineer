@@ -1,0 +1,19 @@
+{
+  "dataset": "ru_legal_qa_v1",
+  "selection_rule": "mixed_baseline_success_and_hard_cases_without_rlm_selection",
+  "baseline_top_k": 3,
+  "candidate_top_k": 10,
+  "exclude_first": 8,
+  "target_baseline_support_rate": 0.125,
+  "examples": 24,
+  "baseline_supported_examples": 3,
+  "baseline_answer_support_rate_by_selection": 0.125,
+  "candidate_answer_support_rate_by_selection": 1.0,
+  "uses_rlm_for_selection": false,
+  "output": "/data/source/personal/awesome-ai-engineer/project/data/processed/rlm_validation_examples.jsonl",
+  "evaluation_metrics_path": "/data/source/personal/awesome-ai-engineer/project/artifacts/ru_legal_qa_rlm_metrics.json",
+  "baseline_answer_support_rate_evaluated": 0.125,
+  "rlm_answer_support_rate_evaluated": 0.7083333333333334,
+  "rlm_quote_support_rate_evaluated": 1.0,
+  "rlm_found_rate_evaluated": 0.7083333333333334
+}

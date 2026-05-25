@@ -1,0 +1,910 @@
+{
+  "contract_id": "manual_demo_001",
+  "lm_available": true,
+  "chunk_count": 3,
+  "results": [
+    {
+      "enabled": true,
+      "clause_type": "Ограничена ли ответственность исполнителя?",
+      "queries": [
+        "Ограничена ли ответственность исполнителя?"
+      ],
+      "chunks_read": [
+        "manual_demo_001__chunk_0000",
+        "manual_demo_001__chunk_0001",
+        "manual_demo_001__chunk_0002"
+      ],
+      "answer": {
+        "found": true,
+        "answer": "Да, ответственность Исполнителя ограничена суммой фактически полученного им вознаграждения, а также стороны не отвечают за упущенную выгоду и косвенные убытки.",
+        "risk_level": "low",
+        "confidence": 1.0,
+        "evidence": [
+          "Стороны не отвечают за упущенную выгоду и косвенные убытки. Совокупная ответственность Исполнителя по настоящему договору ограничивается суммой фактически полученного им вознаграждения",
+          "не отвечают за упущенную выгоду и косвенные убытки. Совокупная ответственность Исполнителя по настоящему договору ограничивается суммой фактически полученного им вознаграждения по договору, за исключением случаев умысла и нарушения конфиденциальности."
+        ]
+      },
+      "judge_outputs": [
+        {
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "quote": "3. Ответственность сторон\nСтороны не отвечают за упущенную выгоду и косвенные убытки. Совокупная ответственность Исполнителя по настоящему договору ограничивается суммой фактически полученного им вознаграждения",
+          "verdict": "supports",
+          "rationale": "Кандидатский отрывок гласит: \"Совокупная ответственность Исполнителя по настоящему договору ограничивается суммой фактически полученного им вознаграждения\", что является прямым ответом на вопрос об ограничении ответственности."
+        },
+        {
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "quote": "не отвечают за упущенную выгоду и косвенные убытки. Совокупная ответственность Исполнителя по настоящему договору ограничивается суммой фактически полученного им вознаграждения по договору, за исключением случаев умысла и нарушения конфиденциальности.",
+          "verdict": "supports",
+          "rationale": "Текст явно содержит формулировку об ограничении совокупной ответственности Исполнителя суммой фактически полученного вознаграждения и об отказе от ответственности за упущенную выгоду и косвенные убытки."
+        },
+        {
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "quote": "Стороны обязуются не раскрывать техническую, коммерческую и финансовую информацию, полученную при исполнении договора, в течение трех лет после его прекращения.\n\n6. Применимое право и споры\nНастоящий договор регулируется и толкуется в соответствии с законодательством Российской Федерации. Споры подлежат рассмотрению в Арбитражном суде города Москвы после соблюдения претензионного порядка.\n\n7. Расторжение\nЗаказчик вправе отказаться от договора в одностороннем порядке при условии оплаты фактически оказанных услуг и направления письменного уведомления не менее чем за 15 календарных дней.",
+          "verdict": "unrelated",
+          "rationale": "Приведенный кандидат-цитата касается обязательств по конфиденциальности информации, а не прямого ограничения совокупной ответственности исполнителя. Положение об ограничении ответственности содержится в окружающем контексте, но не в самой цитате."
+        }
+      ],
+      "trace": [
+        {
+          "tool": "search_chunks",
+          "query": "Ограничена ли ответственность исполнителя?",
+          "hits": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Можно ли уступать права по договору без согласия другой стороны?",
+          "hits": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Каким правом регулируется договор?",
+          "hits": [
+            "manual_demo_001__chunk_0002",
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Есть ли в договоре обязанность оформить страхование?",
+          "hits": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0002",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "clause_type": "Можно ли уступать права по договору без согласия другой стороны?",
+      "queries": [
+        "Можно ли уступать права по договору без согласия другой стороны?"
+      ],
+      "chunks_read": [
+        "manual_demo_001__chunk_0001",
+        "manual_demo_001__chunk_0000",
+        "manual_demo_001__chunk_0002"
+      ],
+      "answer": {
+        "found": true,
+        "answer": "Нет, уступать права по договору без согласия другой стороны нельзя. Согласно пункту 4 договора, ни одна из сторон не вправе уступать права требования или переводить долг третьему лицу без предварительного письменного согласия другой стороны.",
+        "risk_level": "low",
+        "confidence": "high",
+        "evidence": "4. Уступка прав и перевод долга\nНи одна из сторон не вправе уступать права требования или переводить долг по настоящему договору третьему лицу без предварительного письменного согласия другой стороны."
+      },
+      "judge_outputs": [
+        {
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "quote": "4. Уступка прав и перевод долга\nНи одна из сторон не вправе уступать права требования или переводить долг по настоящему договору третьему лицу без предварительного письменного согласия другой стороны.",
+          "verdict": "supports",
+          "rationale": "Кандидатский отрывок прямо запрещает уступку прав требования или перевод долга без предварительного письменного согласия другой стороны, что полностью отвечает на поставленный вопрос."
+        },
+        {
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "quote": "3. Ответственность сторон\nСтороны не отвечают за упущенную выгоду и косвенные убытки. Совокупная ответственность Исполнителя по настоящему договору ограничивается суммой фактически полученного им вознаграждения",
+          "verdict": "supports",
+          "rationale": "Пункт 4 договора прямо запрещает уступку прав требования или перевод долга без предварительного письменного согласия другой стороны, что полностью соответствует содержанию вопроса."
+        },
+        {
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "quote": "Стороны обязуются не раскрывать техническую, коммерческую и финансовую информацию, полученную при исполнении договора, в течение трех лет после его прекращения.",
+          "verdict": "unrelated",
+          "rationale": "Кандидатная цитата касается конфиденциальности информации, а не правил уступки прав по договору. Правило об уступке прав содержится в пункте 4 контекста, который прямо запрещает уступку без согласия другой стороны."
+        }
+      ],
+      "trace": [
+        {
+          "tool": "search_chunks",
+          "query": "Ограничена ли ответственность исполнителя?",
+          "hits": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Можно ли уступать права по договору без согласия другой стороны?",
+          "hits": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Каким правом регулируется договор?",
+          "hits": [
+            "manual_demo_001__chunk_0002",
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Есть ли в договоре обязанность оформить страхование?",
+          "hits": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0002",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "clause_type": "Каким правом регулируется договор?",
+      "queries": [
+        "Каким правом регулируется договор?"
+      ],
+      "chunks_read": [
+        "manual_demo_001__chunk_0002",
+        "manual_demo_001__chunk_0000",
+        "manual_demo_001__chunk_0001"
+      ],
+      "answer": {
+        "found": true,
+        "answer": "Договор регулируется законодательством Российской Федерации.",
+        "risk_level": "low",
+        "confidence": 1.0,
+        "evidence": "Настоящий договор регулируется и толкуется в соответствии с законодательством Российской Федерации."
+      },
+      "judge_outputs": [
+        {
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "quote": "6. Применимое право и споры\nНастоящий договор регулируется и толкуется в соответствии с законодательством Российской Федерации. Споры подлежат рассмотрению в Арбитражном суде города Москвы после соблюдения претензионного порядка.",
+          "verdict": "supports",
+          "rationale": "The candidate quote directly specifies that the contract is governed by the legislation of the Russian Federation, which is the exact information requested by the clause type."
+        },
+        {
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "quote": "1. Предмет договора\nИсполнитель оказывает Заказчику консультационные услуги по настройке внутренней системы учета. Заказчик принимает результат услуг и оплачивает их в порядке, указанном в договоре.",
+          "verdict": "unrelated",
+          "rationale": "The candidate quote details the scope of work and payment terms, but it does not specify the legal jurisdiction or the body of law that governs the agreement."
+        },
+        {
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "quote": "не отвечают за упущенную выгоду и косвенные убытки. Совокупная ответственность Исполнителя по настоящему договору ограничивается суммой фактически полученного им вознаграждения по договору, за исключением случаев умысла и нарушения конфиденциальности.",
+          "verdict": "unrelated",
+          "rationale": "The candidate quote addresses the limitation of liability and damages, whereas the clause type asks about the governing law of the contract. The governing law is explicitly stated in section 6 of the surrounding context."
+        }
+      ],
+      "trace": [
+        {
+          "tool": "search_chunks",
+          "query": "Ограничена ли ответственность исполнителя?",
+          "hits": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Можно ли уступать права по договору без согласия другой стороны?",
+          "hits": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Каким правом регулируется договор?",
+          "hits": [
+            "manual_demo_001__chunk_0002",
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Есть ли в договоре обязанность оформить страхование?",
+          "hits": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0002",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "clause_type": "Есть ли в договоре обязанность оформить страхование?",
+      "queries": [
+        "Есть ли в договоре обязанность оформить страхование?"
+      ],
+      "chunks_read": [
+        "manual_demo_001__chunk_0000",
+        "manual_demo_001__chunk_0002",
+        "manual_demo_001__chunk_0001"
+      ],
+      "answer": {
+        "found": false,
+        "answer": "В предоставленных отрывках договора нет обязанности оформить страхование.",
+        "risk_level": "low",
+        "confidence": 0.95,
+        "evidence": []
+      },
+      "judge_outputs": [
+        {
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "quote": "1. Предмет договора\nИсполнитель оказывает Заказчику консультационные услуги по настройке внутренней системы учета. Заказчик принимает результат услуг и оплачивает их в порядке, указанном в договоре.",
+          "verdict": "unrelated",
+          "rationale": "Кандидатский отрывок касается предмета договора (консультационные услуги) и не содержит информации об обязанности оформления страхования."
+        },
+        {
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "quote": "Стороны обязуются не раскрывать техническую, коммерческую и финансовую информацию, полученную при исполнении договора, в течение трех лет после его прекращения.\n\n6. Применимое право и споры\nНастоящий договор регулируется и толкуется в соответствии с законодательством Российской Федерации. Споры подлежат рассмотрению в Арбитражном суде города Москвы после соблюдения претензионного порядка.\n\n7. Расторжение\nЗаказчик вправе отказаться от договора в одностороннем порядке при условии оплаты фактически оказанных услуг и направления письменного уведомления не менее чем за 15 календарных дней.",
+          "verdict": "unrelated",
+          "rationale": "Предоставленный отрывок не содержит положений, касающихся обязанности сторон по оформлению страхования."
+        },
+        {
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "quote": "не отвечают за упущенную выгоду и косвенные убытки. Совокупная ответственность Исполнителя по настоящему договору ограничивается суммой фактически полученного им вознаграждения по договору, за исключением случаев умысла и нарушения конфиденциальности.\n\n4. Уступка прав и перевод долга\nНи одна из сторон не вправе уступать права требования или переводить долг по настоящему договору третьему лицу без предварительного письменного согласия другой стороны.\n\n5. Конфиденциальность\nСтороны обязуются не раскрывать техническую, коммерческую и финансовую информацию, полученную при исполнении договора, в течение трех лет после его прекращения.",
+          "verdict": "unrelated",
+          "rationale": "The provided text snippet focuses on liability limitations, assignment, and confidentiality, and does not address any requirement for either party to obtain or maintain insurance."
+        }
+      ],
+      "trace": [
+        {
+          "tool": "search_chunks",
+          "query": "Ограничена ли ответственность исполнителя?",
+          "hits": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Можно ли уступать права по договору без согласия другой стороны?",
+          "hits": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Каким правом регулируется договор?",
+          "hits": [
+            "manual_demo_001__chunk_0002",
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "search_chunks",
+          "query": "Есть ли в договоре обязанность оформить страхование?",
+          "hits": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0002",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0000"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0000",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0002"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0002",
+          "returned": [
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        },
+        {
+          "tool": "read_chunk",
+          "chunk_id": "manual_demo_001__chunk_0001"
+        },
+        {
+          "tool": "get_neighbors",
+          "chunk_id": "manual_demo_001__chunk_0001",
+          "returned": [
+            "manual_demo_001__chunk_0000",
+            "manual_demo_001__chunk_0001",
+            "manual_demo_001__chunk_0002"
+          ]
+        }
+      ]
+    }
+  ]
+}

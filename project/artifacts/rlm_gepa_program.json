@@ -1,0 +1,71 @@
+{
+  "judge.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Given the fields `clause_type`, `candidate_quote`, `surrounding_context`, produce the fields `verdict`, `rationale`.",
+      "fields": [
+        {
+          "prefix": "Clause Type:",
+          "description": "${clause_type}"
+        },
+        {
+          "prefix": "Candidate Quote:",
+          "description": "${candidate_quote}"
+        },
+        {
+          "prefix": "Surrounding Context:",
+          "description": "${surrounding_context}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Verdict:",
+          "description": "supports, weak_support, unrelated"
+        },
+        {
+          "prefix": "Rationale:",
+          "description": "${rationale}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "structure.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Given the fields `clause_type`, `evidence_quotes`, produce the fields `answer_json`.",
+      "fields": [
+        {
+          "prefix": "Clause Type:",
+          "description": "${clause_type}"
+        },
+        {
+          "prefix": "Evidence Quotes:",
+          "description": "${evidence_quotes}"
+        },
+        {
+          "prefix": "Reasoning:",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer Json:",
+          "description": "Valid JSON with found, answer, risk_level, confidence, evidence"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.13",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

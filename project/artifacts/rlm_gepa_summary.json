@@ -1,0 +1,7 @@
+{
+  "dataset": "ru_legal_qa",
+  "train_examples": 8,
+  "top_k": 10,
+  "hard_only": true,
+  "output": "/data/source/personal/awesome-ai-engineer/project/artifacts/rlm_gepa_program.json"
+}
