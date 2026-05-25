@@ -1,0 +1,69 @@
+[clause_queries]
+"Cap On Liability" = [
+  "cap on liability",
+  "limitation of liability",
+  "liability cap",
+  "aggregate liability",
+  "maximum liability",
+  "damages limitation",
+]
+"Governing Law" = [
+  "governing law",
+  "laws of",
+  "jurisdiction",
+  "governed by",
+  "state law",
+]
+"Anti-Assignment" = [
+  "assignment",
+  "anti-assignment",
+  "may not assign",
+  "prior written consent",
+  "transfer this agreement",
+]
+"License Grant" = ["license grant", "licensed rights", "grant of license"]
+"Audit Rights" = ["audit rights", "inspect records", "audit books"]
+"Termination For Convenience" = ["termination for convenience", "terminate without cause"]
+"Insurance" = ["insurance", "insured", "coverage"]
+"Change Of Control" = ["change of control", "merger", "acquisition"]
+"Non-Compete" = ["non-compete", "covenant not to compete", "competition"]
+"Применимое право" = ["применимое право", "законодательство российской федерации", "регулируется правом"]
+"Подсудность" = ["подсудность", "арбитражный суд", "споры подлежат рассмотрению", "разрешаются в суде"]
+"Ограничение ответственности" = ["ограничение ответственности", "ответственность ограничивается", "косвенные убытки", "упущенная выгода"]
+"Неустойка" = ["неустойка", "пеня", "штраф", "процент за каждый день просрочки"]
+"Срок договора" = ["срок договора", "договор действует", "вступает в силу", "срок действия"]
+"Расторжение договора" = ["расторжение договора", "отказаться от договора", "прекратить действие", "расторгнуть договор"]
+"Конфиденциальность" = ["конфиденциальность", "конфиденциальная информация", "не подлежат раскрытию", "режим конфиденциальности"]
+"Персональные данные" = ["персональные данные", "обработка персональных данных", "защита персональных данных"]
+"Уступка прав" = ["уступка прав", "передача прав", "передавать лицензию", "субаренда", "письменное согласие"]
+"Форс-мажор" = ["форс-мажор", "обстоятельства непреодолимой силы", "чрезвычайные обстоятельства"]
+"Порядок оплаты" = ["порядок оплаты", "оплата производится", "арендная плата", "аванс", "банковских дней"]
+
+[ru_legal_qa]
+default_category = "Правовой вопрос"
+full_text_fields = ["full_text", "Полный текст"]
+law_quotes_fields = ["law_quotes", "Цитаты из НПА"]
+question_fields = ["question", "Вопрос"]
+answer_fields = ["answer", "Ответ"]
+category_fields = ["category", "Категория"]
+
+[eis_btk]
+default_urls = [
+  "https://zakupki.gov.ru/epz/btk/btkCard/common-info.html?reestrNumber=1400700000523005",
+]
+name_prefix = "ЕИС БТК"
+
+[eis_btk.section_patterns]
+"Порядок оплаты" = ["порядок оплаты", "цена контракта", "порядок расчет"]
+"Ответственность сторон" = ["ответственность сторон", "штраф", "пен[яи]"]
+"Срок договора" = ["срок действия", "срок исполнения", "срок договора"]
+"Расторжение договора" = ["расторжение", "изменение условий", "односторонн"]
+"Форс-мажор" = ["обстоятельства непреодолимой силы", "форс[- ]мажор"]
+
+[confidence_labels]
+low = 0.3
+medium = 0.6
+high = 0.85
+"низкая" = 0.3
+"средняя" = 0.6
+"высокая" = 0.85

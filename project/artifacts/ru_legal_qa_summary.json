@@ -1,0 +1,8 @@
+{
+  "dataset": "ru_legal_qa_v1",
+  "contracts": 81,
+  "examples": 324,
+  "chunks": 44302,
+  "source": "Roflmax/Ru-Legal-QA-v1",
+  "real_dataset": true
+}

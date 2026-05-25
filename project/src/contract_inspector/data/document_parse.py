@@ -181,7 +181,7 @@ def flatten_contractnli_split(split: str, payload: dict[str, Any]) -> tuple[pd.D
     documents = payload.get("documents") or []
 
     if not isinstance(documents, list):
-        raise TypeError(f"Ожидал documents как list, получил: {type(documents)}")
+        raise TypeError(f"Expected documents as list, got: {type(documents)}")
 
     label_hypothesis_by_id = {
         str(label_id): contractnli_label_text(label_payload)

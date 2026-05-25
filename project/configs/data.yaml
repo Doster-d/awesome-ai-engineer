@@ -1,0 +1,5 @@
+processed_dir: data/processed
+contracts_path: data/processed/contracts.jsonl
+clause_examples_path: data/processed/clause_examples.jsonl
+nli_examples_path: data/processed/nli_examples.jsonl
+chunks_path: data/processed/chunks.jsonl

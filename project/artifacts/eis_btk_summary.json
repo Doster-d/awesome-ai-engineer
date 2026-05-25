@@ -1,0 +1,15 @@
+{
+  "dataset": "eis_btk",
+  "contracts": 0,
+  "weak_examples": 0,
+  "chunks": 0,
+  "source_urls": [
+    "https://zakupki.gov.ru/epz/btk/btkCard/common-info.html?reestrNumber=1400700000523005"
+  ],
+  "errors": [
+    {
+      "url": "https://zakupki.gov.ru/epz/btk/btkCard/common-info.html?reestrNumber=1400700000523005",
+      "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    }
+  ]
+}

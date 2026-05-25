@@ -1,0 +1,12 @@
+{
+  "contracts": 1198,
+  "cuad_and_ru_contracts": 591,
+  "contractnli_contracts": 607,
+  "ru_legal_qa_contracts": 81,
+  "clause_examples": 4914,
+  "ru_legal_qa_examples": 324,
+  "nli_examples": 10319,
+  "chunks": 35352,
+  "gold_span_found_rate": 0.5022385022385022,
+  "mode": "raw_cuad"
+}
