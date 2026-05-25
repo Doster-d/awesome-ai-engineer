@@ -1,0 +1,37 @@
+{
+  "dataset": "ru_legal_qa_v1",
+  "coverage": {
+    "gold_spans": 2161,
+    "gold_span_covered": 2159,
+    "coverage_rate": 0.999074502545118,
+    "max_overlap_ratio_mean": 0.999864352292344,
+    "evidence_loss_rate": 0.0009254974548820183
+  },
+  "retrievers": {
+    "sanity_first_chunks": {
+      "recall@1": 0.5246913580246914,
+      "recall@3": 0.7469135802469136,
+      "recall@5": 0.8703703703703703,
+      "recall@10": 0.9629629629629629,
+      "mrr": 0.6622134038800704,
+      "evaluated": 324
+    },
+    "tfidf": {
+      "recall@1": 0.6388888888888888,
+      "recall@3": 0.8672839506172839,
+      "recall@5": 0.9197530864197531,
+      "recall@10": 0.9845679012345679,
+      "mrr": 0.7650303742896338,
+      "evaluated": 324
+    },
+    "bm25": {
+      "recall@1": 0.6635802469135802,
+      "recall@3": 0.8672839506172839,
+      "recall@5": 0.9320987654320988,
+      "recall@10": 0.9907407407407407,
+      "mrr": 0.7776810209680581,
+      "evaluated": 324
+    }
+  },
+  "examples_evaluated": 324
+}

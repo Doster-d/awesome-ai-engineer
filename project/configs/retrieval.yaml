@@ -1,0 +1,8 @@
+chunk_size_words: 800
+overlap_words: 150
+top_k: 10
+min_overlap_ratio: 0.1
+retrievers:
+  - sanity
+  - tfidf
+  - bm25

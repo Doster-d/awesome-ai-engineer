@@ -1,0 +1,7 @@
+{
+  "gold_spans": 4528,
+  "gold_span_covered": 4520,
+  "coverage_rate": 0.9982332155477032,
+  "max_overlap_ratio_mean": 0.9997919075557777,
+  "evidence_loss_rate": 0.0017667844522968323
+}

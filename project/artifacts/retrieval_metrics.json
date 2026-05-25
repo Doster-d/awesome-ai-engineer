@@ -1,0 +1,36 @@
+{
+  "coverage": {
+    "gold_spans": 4528,
+    "gold_span_covered": 4520,
+    "coverage_rate": 0.9982332155477032,
+    "max_overlap_ratio_mean": 0.9997919075557777,
+    "evidence_loss_rate": 0.0017667844522968323
+  },
+  "retrievers": {
+    "sanity_first_chunks": {
+      "recall@1": 0.09748134328358209,
+      "recall@3": 0.2989738805970149,
+      "recall@5": 0.4528917910447761,
+      "recall@10": 0.7178171641791045,
+      "mrr": 0.2508804563492059,
+      "evaluated": 2144
+    },
+    "tfidf": {
+      "recall@1": 0.8120335820895522,
+      "recall@3": 0.9333022388059702,
+      "recall@5": 0.9664179104477612,
+      "recall@10": 0.9869402985074627,
+      "mrr": 0.876771647713811,
+      "evaluated": 2144
+    },
+    "bm25": {
+      "recall@1": 0.8125,
+      "recall@3": 0.9319029850746269,
+      "recall@5": 0.9659514925373134,
+      "recall@10": 0.9860074626865671,
+      "mrr": 0.8766126584340194,
+      "evaluated": 2144
+    }
+  },
+  "examples_evaluated": 2144
+}
